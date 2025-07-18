@@ -80,7 +80,6 @@ calculation = ""
 
 
 def button_click(operation):
-    print("hello")
     global calculation
     if len(calculation) > 0 and operation == "(" and calculation[-1] in "0123456789":
         button_click("*")
